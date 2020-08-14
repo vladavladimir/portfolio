@@ -1,0 +1,228 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica;
+}
+
+.header {
+    overflow: hidden;
+    background-color: darkblue;
+    padding: 20px 10px;
+}
+
+.header li {
+    background-color: dodgerblue;
+    margin-right: 28px;
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 8px;
+    text-decoration: none;
+    font-size: 22px;
+    line-height: 20px;
+    border-radius: 12px;
+}
+
+
+.header li:hover{
+    background-color: #ddd;
+    color: black;
+
+}
+.header-right {
+    float: right;
+}
+.button{
+    color: black;
+    border-radius: 12px;
+    padding: 8px;
+    font-size: 24px;
+}
+.button:hover{
+    background-color: dimgrey;
+    color: black;
+}
+.form{
+    position: absolute;
+    top: 20px;
+    left: 45%;
+}
+.signup{
+    position: absolute;
+    top: 160px;
+    left: 29%;
+    color: black;
+    background-color: cornflowerblue;
+    padding: 8px;
+    border-radius: 12px;
+    font-size: 18px;
+
+}
+.signup:hover{
+    background-color: dimgrey;
+    color: black;
+}
+.msg{
+    display:flex;
+    background-color:#fff;
+    padding:20px;
+    border-radius:30px;
+    min-width:40px;
+    max-width:220px;
+    min-height:40px;
+    margin:20px;
+    position:absolute;
+    top: 50px;
+    left: 25%;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+}
+.msg:before,
+.msg:after{
+    content:"";
+    background-color:#fff;
+    border-radius:50%;
+    display:block;
+    position:absolute;
+    z-index:-1;
+}
+.msg:before{
+    width:44px;
+    height:44px;
+    top:-12px;
+    left:28px;
+    box-shadow:-50px 30px 0 -12px #fff;
+}
+.msg:after{
+    bottom:-10px;
+    right:26px;
+    width:30px;
+    height:30px;
+    box-shadow:40px -34px 0 0 #fff,
+    -28px -6px 0 -2px #fff,
+    -24px 17px 0 -6px #fff,
+    -5px 25px 0 -10px #fff;
+
+}
+.input{
+    width: 100%;
+    padding: 4px 12px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 4px;
+    background-color: darkgrey;
+}
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+}
+
+.home {
+    font-size: 42px;
+    text-align: center;
+}
+.back{
+    background-image: url("../images/imageedit_1_5757389580.png" );
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.text {
+    animation: color-change 3s infinite;
+    animation-name: example;
+
+}
+
+@keyframes example {
+    0%   {color: black;}
+    25%  {color: orangered;}
+    50%  {color: darkblue;}
+    100% {color: darkgreen;}
+}
+.inputs{
+    width: 15%;
+    padding: 4px 12px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 4px;
+    background-color: darkgrey;
+}
+.signbutton{
+    background-color: cornflowerblue;
+    padding: 8px;
+    border-radius: 12px;
+    font-size: 18px;
+}
+.signbutton:hover{
+    background-color: dimgrey;
+    color: black;
+}
+
+.images{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    border-radius: 50%;
+}
+.h1{
+    text-align: center;
+    font-size: 40px;
+}
+.a{
+    position: center;
+    text-align: center;
+    font-family: "Arial Black";
+    font-size: 28px;
+
+}
+.link{
+    text-align: center;
+    font-size: 28px;
+    position: relative;
+    left: 42%;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+}
+.h2{
+    text-align: center;
+    font-size: 36px;
+    font-family: Script;
+}
+.contact{
+    text-align: center;
+    font-size: x-large;
+
+}
+.f2{
+border-radius: 8px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 75%;
+}
+.me{
+    border-radius: 50%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 30%;
+}
+.marija{
+    display: block;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    height: 50%;
+}
