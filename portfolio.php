@@ -11,41 +11,41 @@ else{
 
 
 <h1 class="h1"><b>
-    Ovo je prikaz mojih samostalnih projekata,kao produkt samostalnog ucenja i saznanja;
+    This is display of my projects,as a product of learning on my own;
     </b></h1>
 
-    <p class="a">Moj prvi samostalni veci projekat koji sam radio kao zavrsni rad kursa "Backend programiranje MySql i PHP;</p>
+    <p class="a">My first project thet I did as a final task for "Backend programing MySql i PHP;</p>
 
-<a href="https://github.com/vladavladimir/admin" class="link">Link do mog prvog projekta;</a>
+<a href="https://github.com/vladavladimir/admin" class="link">Link to my project no. 1;</a>
 
-<p class="a">Sa ovim projektom sam uspesno zavrsio kurs;</p>
+<p class="a">With this project I successfully pass course;</p>
 
 <img src="images/backend.png" alt="backend" class="images">
 
-<h2 class="h2"><b>Ovo je projekat koji je bio odgovor na zavrsni zadatak kursa "Web Development CSS,HTML,JavaScipt;</b></h2>
+<h2 class="h2"><b>This projesct was a response to finishing task of "Web Development CSS,HTML,JavaScipt;</b></h2>
 
-<a href="https://github.com/vladavladimir/html" class="link">Link do projekta br. 2</a>
+<a href="https://github.com/vladavladimir/html" class="link">Link to project no. 2</a>
 
-    <p class="a">Nakon cega sma uspesno savladao kurs ;</p>
+    <p class="a">Whit that projesct I passed the course;</p>
 
 <img src="images/Web.png" class="images" alt="Web Development">
 
-<h3 class="h2">Nakon toga sam polagao kurs QA Manuelno testiranje softvera;</h3>
+<h3 class="h2">After i did course QA Manuel testing software;</h3>
 
-<a href="https://drive.google.com/file/d/1gHhgTUQa7alw3IkBFakNmI1ZaRQhOPge/view?usp=sharing" class="link">Link do projekta br. 3;</a>
+<a href="https://drive.google.com/file/d/1gHhgTUQa7alw3IkBFakNmI1ZaRQhOPge/view?usp=sharing" class="link">Link to project no. 3;</a>
 
-<p class="a">Nakon cega sam polozio;</p>
+<p class="a">And whit that successfully pass the course;</p>
 
 <img src="images/QA%20Manuel.png" alt="QA Manual" class="images">
 
-<h4 class="h2">Zadnji kurs koji sam polagao je "WordPress";</h4>
+<h4 class="h2">Last course that I did was "WordPress";</h4>
 
-<a href="https://vlada776256002.wordpress.com/" class="link">Link do projekta br.4;</a>
+<a href="https://vlada776256002.wordpress.com/" class="link">Link to project no.4;</a>
 
-<p class="a">Sa time sam zavrsio kurs;</p>
+<p class="a">And whit little hard work pass the test;</p>
 
 <img src="images/Wordpress.png" class="images" alt="Wordpres">
 
-<p class="a">Trenutno radim na daljem usavrsavanje kroz ucenje Jave osnove i Java srednji nivo kao i Python;</p><br>
+<p class="a">At this momet I am still upgrading my knowledge true working on Java basics,Java medium and Python;</p><br>
 
 <?php require 'core/footer.php'; ?>
