@@ -1,3 +1,3 @@
 # portfolio
-Just import loginsystem.sql
-Sign up and send coments
+Just import loginsystem.sql to MySQL
+Sign up and login sistem, view portfoli and send comments
